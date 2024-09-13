@@ -4,14 +4,11 @@ import LanguageSwitcher from "components/LanguageSwitcher";
 import keys from "./data";
 import photo from "assets/images/myPhoto.jpg";
 import SwitchStyleButton from "modules/core/components/SwitchStyleButton";
-import { useMarvel } from "modules/marvel/containers/MarvelLayout/context";
 import styles from "./index.module.scss";
 
 const Header = () => {
   const { t } = useTranslation();
   const anchors = keys();
-
-  const { marvel } = useMarvel();
 
   return (
     <header className={styles.wrapper}>

@@ -1,10 +1,4 @@
-import React, {
-  createContext,
-  FC,
-  ReactNode,
-  useContext,
-  useState,
-} from "react";
+import React, { createContext, useContext } from "react";
 
 interface MarvelContextProps {
   marvel: boolean;
