@@ -4,6 +4,7 @@ import { useMarvel } from "modules/marvel/containers/MarvelLayout/context";
 
 const SwitchStyleButton = () => {
   const { marvel, setMarvel } = useMarvel();
+  console.log(marvel);
 
   const onClick = () => {
     setMarvel(!marvel);

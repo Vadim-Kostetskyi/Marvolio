@@ -4,14 +4,14 @@ import About from "./About";
 import Projects from "./Projects";
 import Feedback from "./Feedback";
 import { useMarvel } from "modules/marvel/containers/MarvelLayout/context";
-import DoorPortal from "../../marvel/components/DoorPortal";
+import DoorPortal from "../../marvel/containers/DoorPortal";
 
 const Main = () => {
   const { marvel } = useMarvel();
 
   return (
     <>
-      {marvel ? (
+      {!marvel ? (
         <DoorPortal />
       ) : (
         <>
