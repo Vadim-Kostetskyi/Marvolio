@@ -1,0 +1,57 @@
+@import "styles/constants";
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.4rem;
+  height: 100vh;
+  background: linear-gradient(to right, $pastelColor, $pastelColor),
+    url("../../../../assets/svg/bg.svg");
+
+  & h1 {
+    font-size: 3.8rem;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  & > p {
+    text-align: center;
+    max-width: 41rem;
+    margin-bottom: 50px;
+  }
+}
+
+.social {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  transform: translateY(-50%);
+  background-color: $whiteColor;
+  border-radius: 5px;
+  box-shadow: $smokyGray 0px 7px 29px 0px;
+}
+
+.phone {
+  padding: 1rem;
+  border-radius: 5px;
+  padding-bottom: 0.6rem;
+  transition: background-color 0.5s ease;
+
+  &:hover,
+  &:focus {
+    background-color: $purpleTranslucent;
+  }
+}
+
+.phoneIcon {
+  width: 30px;
+}

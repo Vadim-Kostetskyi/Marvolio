@@ -1,0 +1,41 @@
+@import "styles/constants";
+
+.wrapper {
+  background-color: $grayLight;
+  width: 100%;
+}
+
+.mainBox {
+  width: 90%;
+  max-width: 75rem;
+  padding: 7rem 0;
+  margin: auto;
+
+  & p {
+    color: $grey;
+  }
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10rem;
+  margin-bottom: 3rem;
+
+  & h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+  }
+
+  & p {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
+
+  & p > a {
+    text-decoration: underline;
+    font-weight: 700;
+    color: $purpleLight;
+    margin: 0 3px;
+  }
+}

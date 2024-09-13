@@ -1,0 +1,52 @@
+@import "styles/constants";
+
+.footer {
+  color: $whiteColor;
+  background-color: $blackColor;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+
+  & h2 {
+    text-transform: uppercase;
+    margin-bottom: 1.3rem;
+  }
+
+  & p {
+    line-height: 1.7;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0;
+
+  & div:first-child {
+    width: 30rem;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: right;
+}
+
+.lover {
+  text-align: center;
+  padding: 2.5rem 0;
+  border-top: 1px solid $graphitic;
+
+  & a {
+    color: $whiteColor;
+    text-decoration: underline;
+  }
+}
+
+.copyright {
+  font-size: 0.75rem;
+  text-align: center;
+  margin-right: 0.5rem;
+}

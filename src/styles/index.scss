@@ -1,0 +1,29 @@
+@import "styles/constants";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $main-font;
+  scroll-behavior: smooth;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+textarea {
+  resize: none;
+}

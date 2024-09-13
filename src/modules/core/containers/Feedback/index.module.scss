@@ -1,0 +1,96 @@
+@import "styles/constants";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 10rem 0;
+  background: linear-gradient(to right, $pastelColor, $pastelColor),
+    url("../../../../assets/svg/bg.svg");
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 75rem;
+  padding: 3rem;
+  border-radius: 5px;
+  background-color: $whiteColor;
+
+  & label {
+    color: $grayDark;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: left;
+  }
+}
+
+.submitBox {
+  position: relative;
+  margin-left: auto;
+}
+
+.button,
+.buttonLoad {
+  width: fit-content;
+  padding: 1rem 4.5rem;
+  margin-left: auto;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: $whiteColor;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  background-color: $purpleLight;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-3px);
+  }
+}
+
+.button {
+  cursor: pointer;
+}
+
+.buttonLoad {
+  color: $purpleLight;
+
+  &:hover,
+  &:focus {
+    transform: translateY(0);
+  }
+}
+
+.loader {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  animation: spin 1s linear infinite;
+  pointer-events: none;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

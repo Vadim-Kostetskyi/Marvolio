@@ -1,0 +1,18 @@
+@import "styles/constants";
+
+.link {
+  display: inline-block;
+  padding: 1rem 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: $whiteColor;
+  background-color: $purpleLight;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-3px);
+  }
+}

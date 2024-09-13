@@ -1,0 +1,17 @@
+@import "styles/constants";
+
+.wrapper {
+  padding: 1rem;
+  padding-bottom: 0.6rem;
+  transition: background-color 0.5s ease;
+  border-radius: 5px;
+
+  &:hover,
+  &:focus {
+    background-color: $purpleTranslucent;
+  }
+}
+
+.icon {
+  width: 30px;
+}

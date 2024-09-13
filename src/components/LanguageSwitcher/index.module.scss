@@ -1,0 +1,17 @@
+@import "styles/constants";
+
+.button,
+.active {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.2rem;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.active {
+  color: $whiteColor;
+  text-shadow: 0 0 3px $purpleLight, 0 0 5px $blackColor;
+}

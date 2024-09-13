@@ -1,0 +1,17 @@
+@import "styles/constants";
+
+.link {
+  display: inline-block;
+  padding: calc(1rem - 2px) calc(3.5rem - 2px);
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid $purpleLight;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-3px);
+  }
+}

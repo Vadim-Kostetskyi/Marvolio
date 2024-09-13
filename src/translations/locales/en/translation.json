@@ -1,0 +1,119 @@
+{
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "contact": "Contact",
+  "myFullName": "Vadym Kostetskyi",
+  "specialization": "Fullstack, Frontend Focused Web Developer",
+  "extensiveSpecialization": "A result-oriented web developer building and managing websites and web applications that lead to the success of the overall product.",
+  "extensiveSpecializationFooter": "A result-oriented web developer building and managing Websites and Web Applications that lead to the success of the overall product.",
+  "social": "Social",
+  "copyright": "© Copyright 2024. Made by",
+  "hey": "Hey, I'm",
+  "section": "section",
+  "webDevelopment": "Web Development",
+  "instagram": "Instagram",
+  "linkedin": "Linkedin",
+  "information": "This page contains the case study of {{projectTitle}}, which includes the Project Overview, Tools Used, and Live Links to the official product.",
+  "feelFree": "Feel free to check out the Project by visiting the Live Link.",
+  "liveLink": "Live Link",
+  "projectLink": "Project Link",
+  "goBack": "Go Back",
+  "myPhoneNumber": "My phone number",
+  "copied": "Copied",
+  "projectDescription": {
+    "projectOverview": "Project Overview",
+    "toolsUsed": "Tools Used",
+    "repositoryLink": "Repository link"
+  },
+  "About": {
+    "title": "About Me",
+    "text": "Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology",
+    "getToKnowMe": "Get to know me!",
+    "iAm": "I'm a",
+    "buildingAnd...": "building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the ",
+    "iAlso...": "I also like sharing content related to the stuff that I have learned over the years in",
+    "soIt...": "so it can help other people of the Dev Community. Feel free to Connect or Follow me on my",
+    "ImOpenTo...": "I'm open to ",
+    "job": "Job",
+    "opportunitiesWhere...": "opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to ",
+    "contact": "contact",
+    "me": "me",
+    "mySkills": "My Skills"
+  },
+  "Projects": {
+    "text": "Here you'll find some of the personal and team projects I've created, with each project containing its own case study"
+  },
+  "Feedback": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "text": "Feel free to Contact me by submitting the form below and I will get back to you as soon as possible"
+  },
+  "toastify": {
+    "success": "Message sent. I will contact you shortly.",
+    "error": "Message not sent, please contact me via the contacts at the top of the page."
+  },
+  "webStudio": {
+    "title": "WebStudio",
+    "projectDescription": "WebStudio website layout for web studio",
+    "projectOverview": [
+      "A website layout for any web studio, made according to the design from Figma. Fully responsive to any device.",
+      "In the project, I demonstrated my skills in working with html layout, working with css styles, and working with responsive layout."
+    ]
+  },
+  "cocktailBar": {
+    "title": "Cocktail-Bar",
+    "projectDescription": "Cocktail-Bar  is a website for searching for cocktails by name or ingredients",
+    "projectOverview": [
+      "My team and I have created a very convenient mini-site for finding cocktails. Here, you can find a cocktail by name or one of its ingredients, explore the full list of cocktail ingredients and the recipe for its preparation.",
+      "The site design is very convenient and clear, made by a designer specifically for this project.",
+      "We used the java script to create a user interface that works on all types of devices, as well as sass extensions for styling."
+    ]
+  },
+  "movies": {
+    "title": "Movies",
+    "projectDescription": "Movies is a site for searching for movies by title",
+    "projectOverview": [
+      "Movies is a small website for finding information about movies. I made the design as simple and pleasing to the eye as possible.",
+      "In this project I demonstrated my skills in Java Script and responsive layout."
+    ]
+  },
+  "dopefolio": {
+    "title": "Dopefolio",
+    "projectDescription": "Dopefolio is a successful open source project. Here, every developer can show their projects, fully describe their work, design and techniques that they used",
+    "projectOverview": [
+      "Dopefolio is an open source project that is a simple multipage portfolio website template for developers. I created this project based on a popular portfolio template for developers using React libraries.",
+      "Here you can find all the developer projects with links to the live page and source code."
+    ]
+  },
+  "medDoc": {
+    "title": "MedDoc",
+    "projectDescription": "A website for medical institutions with the ability to choose a doctor and register with him/her for free time. I also participated in the development of the backend",
+    "projectOverview": [
+      "A completely ready-made website for a hospital with its own backend. Doctors and patients can register on the site. When creating a profile, the user adds a photo and fills in information about himself that will be stored on the backend.",
+      "On the patient's page, the user can select a doctor for an appointment, choose the date and time, and make an appointment. After the visit, the patient can leave a comment about the doctor and give him or her a rating from 1 to 5. The patient can also see a list of his or her visits and a list of all doctors, where they can be sorted by rating, price, or name",
+      "The doctor can see all patient records and the history of visits. He or she can also open a tab with all patients he or she has seen, get information for contacting the patient, and make entries in their medical record."
+    ]
+  },
+  "onlineStore": {
+    "title": "Online-store",
+    "projectDescription": "Clothing store with search and convenient product filtering. The possibility of purchasing goods has also been implemented",
+    "projectOverview": [
+      "Team project Online clothing store. The design is completely developed by our designer. The backend for the site was also developed by our backend developer.",
+      "Implemented a quick transition from the main page to the top categories, product search by name. I created a filter for products by color, size and price.",
+      "The site has a convenient Shopping bag that is stored on the backend, or if the user is not registered, in the browser. In the shopping cart, you can edit each product, its quantity, and proceed to checkout.",
+      "When placing an order, all user data is stored on the backend, which simplifies repeat orders. Order history is also stored on the backend."
+    ]
+  },
+  "slimMom": {
+    "title": "SlimMom",
+    "projectDescription": "The site allows you to control the calories consumed per day, keep a calendar, and receive recommendations regarding user parameters",
+    "projectOverview": [
+      "A team project for a website for people who want to control their calorie intake per day.",
+      "The project includes a calorie calculator and a daily planner. The user can plan everything they will eat in advance and the site will count calories.",
+      "When registering, the user enters their parameters such as height, age, weight, blood type, and the weight they want to gain. The site will immediately show you the foods that are recommended for consumption."
+    ]
+  }
+}

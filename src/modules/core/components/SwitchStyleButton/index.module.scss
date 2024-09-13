@@ -1,0 +1,16 @@
+@import "styles/constants";
+
+.button,
+.active {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: $purpleLight;
+  left: 40rem;
+  top: -1rem;
+}
+
+.active {
+  background-color: $alertRed;
+}

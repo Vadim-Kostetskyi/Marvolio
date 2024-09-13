@@ -1,0 +1,45 @@
+@import "styles/constants";
+
+.phone {
+  padding: 1rem;
+  border-radius: 5px;
+  padding-bottom: 0.6rem;
+  transition: background-color 0.5s ease;
+
+  &:hover,
+  &:focus {
+    background-color: $purpleTranslucent;
+    .phoneNumber {
+      display: block;
+    }
+  }
+}
+
+.phoneIcon {
+  width: 30px;
+}
+
+.phoneNumber {
+  display: none;
+  position: absolute;
+  left: 5rem;
+  top: 0.3rem;
+  width: max-content;
+  padding: 1.2rem;
+  background-color: $whiteColor;
+
+  & p {
+    margin-bottom: 0;
+  }
+}
+
+.copied {
+  position: absolute;
+  top: -2rem;
+  left: 0.5rem;
+}
+
+.link {
+  width: 25px;
+  margin-right: 1rem;
+}
